@@ -5,14 +5,29 @@
 <meta charset="UTF-8" />
 
 <style>
-img {
-float: right;
-margin: 0 0 20px 20px;
-border-radius: 5px;
-}
 body {
-max-width: 1000px;
-background-color:white;
+    height: 100%;
+	margin: 0;
+	max-height: auto;
+	padding:0;
+    background-color: blue;
+}
+#main {
+	width: 900px;
+	margin: 0 auto ;
+	padding: 20px;
+	background-color: white;
+	overflow: auto;
+}
+img {
+    float: right;
+    margin: 0 0 20px 20px;
+}
+.panel {
+    background: white;
+    color: black; 
+    padding: 20px; 
+    text-align: justify; 
 }
 .button {
     background-color: White;
@@ -26,23 +41,25 @@ background-color:white;
     margin: 8px 4px;
     cursor: pointer;
 }
-b { width: 20px;
-}
 </style>
 </head>
 
 <body>
+<div id="main">
+<div style="position: relative;">
 <h1>Мій перший сайт в інтернеті</h1>
-<a href="https://tyronplus.github.io/" class="button"><b>Головна</b></a>
+<a href="https://tyronplus.github.io/" class="button" class="button"><b>Головна</b></a>
 <a href="https://tyronplus.github.io/page2" class="button"><b>Мої хобі</b></a>
 <a href="https://tyronplus.github.io/page3" class="button"><b>Я в інтернеті</b></a>
 <hr>
 <img src="http://secret-seo.ru/images/buduwee_internet_marketinga.jpg" alt="компьютер" width="300" height="240">
-<p><Я в інтернеті</p>
-<h3>Ось такі у мене хобі</h3>
-<p>Лінки на мене в мережі інтернет</p>
+<p>Я в інтернеті</p>
+<h3>Лінки на мене в мережі інтернет</h3>
 <a href="https://www.facebook.com/profile.php?id=100007051397232">https://www.facebook.com/profile.php?id=100007051397232</a>
 <br>
 <a href="https://github.com/tyronplus">https://github.com/tyronplus</a>
-  </body>
+  </div>
+    </div>
+    </body>
 </html>
+
